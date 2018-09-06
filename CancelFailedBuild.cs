@@ -15,7 +15,7 @@ namespace CancelFailedBuild
         [Import]
         SVsServiceProvider GlobalServiceProvider = null;
 
-        static readonly Regex BuildError = new Regex(": error", RegexOptions.IgnoreCase);
+        static readonly Regex BuildError = new Regex(": error|: fatal error", RegexOptions.IgnoreCase);
 
         public void TextViewCreated(IWpfTextView textView)
         {
