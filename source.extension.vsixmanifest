@@ -10,9 +10,9 @@
         <MefComponent>|%CurrentProject%|</MefComponent>
     </Content>
     <Installation>
-        <InstallationTarget Version="[11.0,15.0]" Id="Microsoft.VisualStudio.Community" />
+        <InstallationTarget Version="[11.0,99.0]" Id="Microsoft.VisualStudio.Community" />
     </Installation>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[11.0,16.0]" DisplayName="Visual Studio 核心编辑器" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.1.28811.260,99.0)" DisplayName="Visual Studio 核心编辑器" />
     </Prerequisites>
 </PackageManifest>
